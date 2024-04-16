@@ -1,0 +1,149 @@
+.supermarket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 143px;
+}
+
+.supermarket__center {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 87%;
+  height: 110px;
+  background-color: rgb(240, 240, 241);
+  background-image: linear-gradient(267.6deg,rgba(57, 174, 0, 0.05) 0,rgba(242, 242, 242,0) 100%);
+  border-radius: 16px;
+  padding: 16px 40px 12px 40px;
+}
+
+.supermarket__center__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../Images/supermarket/freshPattern.svg);
+  background-repeat: no-repeat;
+}
+
+.supermarket__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .supermarket__right__right {
+    & img {
+      width: 66px;
+      margin-top: 5px;
+    }
+  }
+  .supermarket__right__center {
+    & svg {
+      scale: 0.9;
+      margin-top: 6px;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+  }
+  .supermarket__right__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 112px;
+    height: 28px;
+    background-color: rgb(57, 174, 0);
+    border-radius: 16px;
+    padding: 0px 9px;
+    & p {
+      font-size: 14px;
+      font-weight: bold;
+      color: #FFFFFF;
+      & span {
+        font-family: var(--font-family-yekan);
+        font-size: 15px;
+        margin: 0px 3px;
+      }
+    }
+  }
+}
+
+.supermarket__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .supermarket__left__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .supermarket__left__right__item {
+      position: relative;
+      width: 74px;
+      height: 74px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      padding: 8px;
+      margin-left: 8px;
+      text-decoration: none;
+      .supermarket__left__right__item__img {
+        & img {
+          width: 58px;
+          border-radius: 50%;
+        }
+      }
+      .supermarket__left__right__item__span {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 20px;
+        background-color: rgb(211, 47, 47);
+        border-radius: 16px;
+        padding: 0px 5px;
+        bottom: 0;
+        right: 0;
+        & span {
+          font-family: var(--font-family-yekan);
+          font-size: 12px;
+          font-weight: bold;
+          color: #FFFFFF;
+          margin: 0px 3px;
+        }
+      }
+    }
+  }
+  .supermarket__left__left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 15px;
+    .supermarket__left__left__span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      color: rgb(57, 174, 0);
+      & span {
+        font-family: var(--font-family-yekan);
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0px 3px;
+      }
+    }
+    .supermarket__left__left__svg {
+      & svg {
+        scale: 0.8;
+        margin-right: 8px;
+        margin-top: 5px;
+      }
+    }
+  }
+}

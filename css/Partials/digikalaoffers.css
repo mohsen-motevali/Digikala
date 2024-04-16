@@ -1,0 +1,72 @@
+.digikalaoffers {
+  width: 100%;
+  height: 395px;
+}
+
+.digikalaoffers__center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 87%;
+  height: inherit;
+  margin: auto;
+  .digikalaoffers__title {
+    font-size: 18px;
+    color: rgb(12, 12, 12);
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    border: 1px solid rgb(224, 224, 226);
+    .swiper-slide {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+      .swiper-slide-item {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        text-decoration: none;
+        .swiper-slide-item-img {
+          width: 84px;
+          height: 84px;
+          background-color: rgb(240, 240, 241);
+          border-radius: 50%;
+          padding: 12px;
+          & img {
+            width: 60px;
+          }
+        }
+        .swiper-slide-item-text {
+          font-size: 14px;
+          color: rgb(12, 12, 12);
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+}
+
+.border {
+  border-left: 1px solid rgb(240, 240, 241);
+}
+
+.top {
+  border-bottom: 1px solid rgb(240, 240, 241);
+}
+
+
+
+
+
+
+
+

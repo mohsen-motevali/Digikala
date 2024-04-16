@@ -1,0 +1,122 @@
+.digiplus {
+  width: 100%;
+  height: 387px;
+  margin-top: 40px;
+}
+
+.digiplus__center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 87%;
+  height: inherit;
+  background-color: rgb(148, 27, 128);
+  border-radius: 16px;
+  padding: 16px;
+  margin: auto;
+}
+
+.digiplus__right {
+  width: 416px;
+  height: 100%;
+  padding-top: 24px;
+  background-image: url(../../Images/digiplus/digiplus-background.png);
+  background-repeat: no-repeat;
+  background-size: 370px;
+  background-position: bottom;
+  .digiplus__right__titles {
+    display: flex;
+    flex-flow: column;
+    padding-right: 24px;
+    .digiplus__right__titles__logo__img {
+      & img {
+        width: 128px;
+      }
+    }
+    .digiplus__right__titles__note {
+      & p {
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-top: 4px;
+        margin-bottom: 8px;
+      }
+    }
+    .digiplus__right__titles__button {
+      width: 104px;
+      height: 39px;
+      background-color: rgb(148, 27, 128);
+      border: 1px solid #FFFFFF;
+      border-radius: 8px;
+      padding: 8px 16px 8px 16px;
+      .digiplus__right__titles__button__text {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin-top: -7px;
+        .digiplus__right__titles__button__text__svg {
+          margin-top: 5px;
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+}
+
+.digiplus__left {
+  width: 868px;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 16px;
+  .digiplus__left__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .digiplus__left__top__title {
+      display: flex;
+      align-items: center;
+      & h4 {
+        font-size: 16px;
+        color: rgb(12, 12, 12);
+        margin-top: -6px;
+      }
+      .digiplus__left__top__title__svg {
+        margin-left: 9px;
+      }
+    }
+    .digiplus__left__top__more{
+      display: flex;
+      align-items: center;
+      & p {
+        font-size: 12px;
+        color: rgb(148, 27, 128);
+        margin-top: -4px;
+      }
+      .digiplus__left__top__more__svg {
+        & svg {
+          scale: 0.8;
+        }
+      }
+    }
+  }
+  .digiplus__left__bottom {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 28px;
+    row-gap: 28px;
+    margin-top: 14px;
+    .digiplus__left__bottom__item {
+      .digiplus__left__bottom__item__img {
+        & img {
+          width: 116px;
+        }
+      }
+    }
+  }
+}

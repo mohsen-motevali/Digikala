@@ -1,0 +1,201 @@
+.amazingoffer {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+  .amazingoffer__center {
+    width: 87%;
+    background-color: #ef394e;
+    margin: auto;
+    padding: 20px 2px;
+    border-radius: 16px;
+    .amazingoffer__slider {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      .swiper {
+        width: 100%;
+        height: 100%;
+        .swiper-slide {
+          height: 260px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+.swiper-slide-start{
+  width: 100%;
+  height: 100%;
+  background-color: #ef394e;
+  text-decoration: none;
+  .swiper-slide-start-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & svg {
+      scale: 0.65;
+      margin-top: -10px;
+    }
+  }
+  .swiper-slide-start-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+      width: 115px;
+      margin-top: -15px;
+    }
+  }
+  .swiper-slide-start-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-right: 5px;
+    margin-top: 5px;
+    & svg {
+      scale: 0.7;
+      margin-top: 2px;
+      margin-right: 2px;
+    }
+  }
+}
+
+.swiper-slide-between {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  .swiper-slide-between-top {
+    height: 60%;
+    & img {
+      width: 150px;
+      margin-top: -10px;
+    }
+  }
+  .swiper-slide-between-bottom {
+    .swiper-slide-between-bottom-mainprice {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .swiper-slide-between-bottom-offer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 34px;
+        height: 20px;
+        background-color: rgb(211, 47, 47);
+        border-radius: 10px;
+        & span {
+          font-family: var(--font-family-yekan);
+          font-size: 11px;
+          font-weight: bold;
+          color: rgb(255, 255, 255);
+        }
+      }
+      .swiper-slide-between-bottom-newprice {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3px;
+        & span {
+          font-family: var(--font-family-yekan);
+          font-size: 17px;
+          font-weight: bold;
+          letter-spacing: -1px;
+          color: rgb(63, 64, 100);
+          padding: 4px;
+        }
+        & svg {
+          scale: 1.2;
+          margin-top: 5px;
+        }
+      }
+    }
+    .swiper-slide-between-bottom-oldprice {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: end;
+      align-items: center;
+      & span {
+        font-family: var(--font-family-yekan);
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: line-through;
+        color: rgb(192, 194, 197);
+        padding: 4px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.swiper-slide-end {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  .swiper-slide-end-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .swiper-slide-end-top-svg {
+      width: 45.6px;
+      height: 45.6px;
+      border: 1px solid rgb(25, 191, 211);
+      border-radius: 50%;
+      & svg{
+        scale: 0.8;
+        margin-top: 10px;
+        margin-right: 13px;
+      }
+    }
+  }
+  .swiper-slide-end-bottom{
+    margin-top: 15px;
+    & span {
+      font-size: 14px;
+      font-weight: bold;
+      color: rgb(63, 64, 100);
+    }
+  }
+}
+
+.first {
+  border-radius: 0px 8px 8px 0px ;
+}
+
+.last {
+  border-radius: 8px 0px 0px 8px;
+  background-color: #FFFFFF;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid rgb(224, 224, 226);
+  border-radius: 50%;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(66, 71, 80);
+}
+

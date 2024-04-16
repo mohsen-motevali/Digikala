@@ -1,0 +1,7 @@
+.fullbanner {
+  width: 100%;
+  height: 64px;
+  background-image: url(../../../Images/incredible/fullbanner/header.svg), linear-gradient(to top, rgb(239, 64, 86), rgb(239, 57, 78));
+  background-repeat: no-repeat;
+  background-position: 50% , 50%;
+}

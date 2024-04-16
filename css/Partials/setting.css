@@ -1,0 +1,46 @@
+*,
+*::placeholder {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  text-decoration: none;
+}
+@font-face {
+  font-family: BYekan;
+  src: url("../../Fonts/BYekan/BYekan.eot");
+  src: url("../../Fonts/BYekan/BYekan.ttf");
+  src: url("../../Fonts/BYekan/BYekan.woff");
+  src: url("../../Fonts/BYekan/BYekan.woff2");
+}
+
+@font-face {
+  font-family: IRANYekan;
+  src: url("../../Fonts/IRANYekan/IRANYekanWeb.eot");
+  src: url("../../Fonts/IRANYekan/IRANYekanWeb.ttf");
+  src: url("../../Fonts/IRANYekan/IRANYekanWeb.woff");
+  src: url("../../Fonts/IRANYekan/IRANYekanWeb.woff2");
+}
+
+:root {
+  --font-family: IRANYekan;
+  --font-family-yekan: BYekan;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  background-color:rgb(236, 237, 238);
+}
+
+::-webkit-scrollbar-thumb{
+  width: 8px;
+  background-color: rgb(198, 198, 201);
+}

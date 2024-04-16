@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://swiperjs.com/demos/130-centered/core -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./Swiper _files/swiper-bundle.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+    <div class="swiper-wrapper" id="swiper-wrapper-e01216c10ab79ea56" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-978.75px, 0px, 0px); transition-delay: 0ms;">
+      <div class="swiper-slide" role="group" aria-label="1 / 9" style="width: 361.5px; margin-right: 30px;">Slide 1</div>
+      <div class="swiper-slide" role="group" aria-label="2 / 9" style="width: 361.5px; margin-right: 30px;">Slide 2</div>
+      <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 361.5px; margin-right: 30px;">Slide 3</div>
+      <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 9" style="width: 361.5px; margin-right: 30px;">Slide 4</div>
+      <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 9" style="width: 361.5px; margin-right: 30px;">Slide 5</div>
+      <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 9" style="width: 361.5px; margin-right: 30px;">Slide 6</div>
+      <div class="swiper-slide" role="group" aria-label="7 / 9" style="width: 361.5px; margin-right: 30px;">Slide 7</div>
+      <div class="swiper-slide" role="group" aria-label="8 / 9" style="width: 361.5px; margin-right: 30px;">Slide 8</div>
+      <div class="swiper-slide" role="group" aria-label="9 / 9" style="width: 361.5px; margin-right: 30px;">Slide 9</div>
+    </div>
+    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 5" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9"></span></div>
+  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+  <!-- Swiper JS -->
+  <script src="./Swiper _files/swiper-bundle.min.js.download"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      centeredSlides: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+
+
+</body></html>

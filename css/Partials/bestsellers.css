@@ -1,0 +1,116 @@
+.bestsellers {
+  width: 100%;
+  height: 404px;
+  margin-top: 18px;
+}
+
+.bestsellers__center {
+  width: 87%;
+  height: inherit;
+  border: 1px solid rgb(224, 224, 226);
+  border-radius: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: auto;
+}
+
+.bestsellers__header {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  .bestsellers__header__title {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    & p {
+      font-size: 20px;
+      color: rgb(12, 12, 12);
+      margin-top: -4px;
+      margin-right: 8px;
+    }
+  }
+  .bestsellers__header__more__button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 95px;
+    background-color: transparent;
+    border: none;
+    padding-left: 16px;
+    .bestsellers__header__more__button__text {
+      font-size: 14px;
+      font-weight: bold;
+      color: rgb(25, 191, 211);
+    }
+  }
+}
+
+.bestsellers__bottom {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 10px;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    .swiper-slide {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: center;
+      .bestsellers__bottom__product {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: 9px;
+        .bestsellers__bottom__product__img {
+          margin-left: 12px;
+          & img {
+            width: 86px;
+          }
+        }
+        & span {
+          font-family: var(--font-family-yekan);
+          font-size: 30px;
+          font-weight: bold;
+          letter-spacing: -5px;
+          color: rgb(25, 191, 211);
+          margin-left: 12px;
+        }
+        .bestsellers__bottom__product__text {
+          & p {
+            font-size: 12px;
+            color: rgb(63, 64, 100);
+          }
+        }
+      }
+      .spacebetween {
+        width: 170px;
+        height: 1px;
+        background-color: rgb(240, 240, 241);
+        margin-left: -120px;
+      }
+    }
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid rgb(224, 224, 226);
+  border-radius: 50%;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(66, 71, 80);
+}
+
